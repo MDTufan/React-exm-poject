@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaFacebookSquare,FaFacebookMessenger,FaTwitterSquare,FaGithubSquare} from "react-icons/fa";
 import  "../Css/Main.Css"
 
 const Footer = () => {
@@ -12,7 +13,10 @@ const Footer = () => {
                     <p className="pt-2">Creative UI/UX Design We Have. Make <br />
                         For Your Own Now. </p>
                         <div className="ff">
-                          
+                          <FaFacebookSquare/>
+                          <FaFacebookMessenger />
+                          <FaTwitterSquare />
+                          <FaGithubSquare />
                         </div>
                   
                 </div> 
