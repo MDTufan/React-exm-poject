@@ -6,37 +6,44 @@ import img4 from "../../assets/4.jpg"
 import img5 from "../../assets/5.jpg"
 import img6 from "../../assets/6.jpg"
 import img7 from "../../assets/7.jpg"
+import "../About.css/About.css"
 import  "../Css/Main.css"
 
 const About = () => {
   return (
     <div>
       <div className="container">
+      <div className="py-5">
         <div className="row py-5">
-          <div className="col-6">
-            <h1 className="text-white">hwloo</h1>
-            <h4 className="text-white"> ttttt</h4>
+         
+         <div className="col-6 py-5">
+            <h1 className="text-white">Exclusive collection for everyone</h1>
+            <h4 className="text-white">In this season, find the best</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
-            <button className="btn btn-info">click me</button>
-          </div>
-          <div className="col-6 ">
-            <div className="img-design">
-            <img className="xxx-img xxxx" src={img} alt="" />
+            <div className="pt-5">
+            <button className="btn btn-info py-3 px-5 btn-des">click me</button>
             </div>
           </div>
+          <div className="col-6 ">
+            <div className="img-design1 ">
+            <img className="xxx-img xxxx x4" src={img} alt="" />
+            </div>
+          </div>
+         </div>
         </div>
       </div>
       <div className="bgc">
         <div className="container">
         <div className="row py-5">
           
-          <div className="col-6 ">
-            <div className="img-design">
+          <div className="col-6 py-5 ">
+            <div className="img-design2">
             <img className="xxx-img xxxx" src={img1} alt="" />
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-6 " >
-                        <h6 class="py-3 text-white">Our vision</h6>
+               <div className="ccc py-5">
+               
                         <h1 class="py-3 text-white">We are marketpress</h1>
                         <p class="p-1clor text-white">Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                         <ul>
@@ -51,7 +58,11 @@ const About = () => {
                         <ul>
                             <li className="text-white">Completely synergize resource taxing relationships</li>
                         </ul>
-                    </div>
+                         <div className="pt-5">
+                          <button className="btn btn-info py-3 px-5 btn-des">click me</button>
+                          </div>
+                        </div>         
+          </div>
         </div>
         </div>
       </div>
@@ -66,13 +77,32 @@ const About = () => {
          </div>
          <div class="container">
              
-             <div className="row py-2">
+             <div className="row py-5">
                <div className="col-4">
                <div class="card" >
                
                <div class="container1">
                
-               <img src={img7} alt="" />
+               <img className="x5" src={img7} alt="" />
+                 <div class="overlay">
+                   <div class="text">
+                     <h3 class="h3-1 ">Web Development</h3>
+                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
+                     <div class="btn-92">
+                       <a href="#" class=" btn btn-9">Download CV</a>
+                     </div>
+                   </div>
+                 </div>
+              
+               </div>
+              </div>
+               </div>
+               <div className="col-4">
+               <div class="card" >
+               
+               <div class="container1">
+               
+               <img className="x5" src={img6} alt="" />
                  <div class="overlay">
                    <div class="text">
                      <h3 class="h3-1">Web Development</h3>
@@ -91,26 +121,7 @@ const About = () => {
                
                <div class="container1">
                
-               <img src={img6} alt="" />
-                 <div class="overlay">
-                   <div class="text">
-                     <h3 class="h3-1">Web Development</h3>
-                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
-                     <div class="btn-92">
-                       <a href="#" class=" btn-9">Download CV</a>
-                     </div>
-                   </div>
-                 </div>
-              
-               </div>
-              </div>
-               </div>
-               <div className="col-4">
-               <div class="card" >
-               
-               <div class="container1">
-               
-               <img src={img2} alt="" />
+               <img className="x5" src={img2} alt="" />
                  <div class="overlay">
                    <div class="text">
                      <h3 class="h3-1">Web Development</h3>
@@ -130,13 +141,13 @@ const About = () => {
            </div>
            <div class="container">
              
-             <div className="row py-2">
+             <div className="row py-5">
                <div className="col-4">
                <div class="card" >
                
                <div class="container1">
                
-               <img src={img3} alt="" />
+               <img className="x5" src={img3} alt="" />
                  <div class="overlay">
                    <div class="text">
                      <h3 class="h3-1">Web Development</h3>
@@ -155,7 +166,7 @@ const About = () => {
                
                <div class="container1">
                
-               <img src={img4} alt="" />
+               <img className="x5" src={img4} alt="" />
                  <div class="overlay">
                    <div class="text">
                      <h3 class="h3-1">Web Development</h3>
@@ -174,7 +185,7 @@ const About = () => {
                
                <div class="container1">
                
-               <img src={img5} alt="" />
+               <img className="x5" src={img5} alt="" />
                  <div class="overlay">
                    <div class="text">
                      <h3 class="h3-1">Web Development</h3>
