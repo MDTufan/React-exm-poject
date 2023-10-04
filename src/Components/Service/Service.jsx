@@ -13,20 +13,35 @@ const [card,setcard]=useState([]);
 const handelAddtoCard=(product)=>{
 
 setcard(product)
-// console.log(product);
+// alert("Show Your Caad detiles")
+console.log(product);
 }
 useEffect(()=>{
   fetch('https://fakestoreapi.com/products')
   .then(res=>res.json())
   .then(data=>setProduct(data))
 
+
 },[]);
 
 
   return (
     <div>
+
+
+     <div className="position-1">
+     <div className="container mt-5">
+        <div className="row">
+          <div className="col-12">
+          <div className="ccc">
+            <Card2 card={card} ></Card2> 
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
    <div className="container ">
-    
+
    <div className="hhxx">
     <div className="hhxxx">
     
@@ -35,19 +50,18 @@ useEffect(()=>{
                 
                 return(
                   
+                     
                       <Card  key={id} product={product} handelAddtoCard={handelAddtoCard} />
+                     
                 )
           })
 
             }
-   
+
     </div>
-   <div className="ccc">
-   <Card2 card={card} ></Card2> 
-   </div>
+   
    </div>
    
-    
    </div>
   
     </div>

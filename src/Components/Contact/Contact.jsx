@@ -9,8 +9,8 @@ const Contact = () => {
     <div className="">
    <div className="container">
    <div className="row py-5">
-          <div className="col-6 py-5">
-          <div className="py-2">
+          <div className="col-12 col-md-6 p-4 py-5">
+          <div className="py-2 mt-4">
           <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white">In this season, find the best</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
@@ -19,9 +19,9 @@ const Contact = () => {
             </div>
           </div>
           </div>
-          <div className="col-6 ">
-            <div className="img-design">
-            <img className="xxx-img img-1" src={img} alt="" />
+          <div className="col-12 col-md-6 p-4 ">
+            <div className="">
+            <img className="img-1 img-fluid" src={img} alt="" />
             </div>
           </div>
         </div>

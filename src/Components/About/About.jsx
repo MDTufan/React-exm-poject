@@ -16,7 +16,7 @@ const About = () => {
       <div className="py-5">
         <div className="row py-5">
          
-         <div className="col-6 py-5">
+         <div className="col-12 col-md-6  p-4 py-5">
             <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white">In this season, find the best</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
@@ -24,7 +24,7 @@ const About = () => {
             <button className="btn btn-info py-3 px-5 btn-des">click me</button>
             </div>
           </div>
-          <div className="col-6 ">
+          <div className="col-12 col-md-6  p-4 ">
             <div className="img-design1 ">
             <img className="xxx-img xxxx x4" src={img} alt="" />
             </div>
@@ -36,12 +36,12 @@ const About = () => {
         <div className="container">
         <div className="row py-5">
           
-          <div className="col-6 py-5 ">
+          <div className="col-12 col-md-6  p-4 py-5 ">
             <div className="img-design2">
             <img className="xxx-img xxxx" src={img1} alt="" />
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-6 " >
+          <div class="col-12 col-md-6  p-4 " >
                <div className="ccc py-5">
                
                         <h1 class="py-3 text-white">We are marketpress</h1>
@@ -78,7 +78,7 @@ const About = () => {
          <div class="container">
              
              <div className="row py-5">
-               <div className="col-4">
+               <div className="col-12 col-md-4  p-4">
                <div class="card" >
                
                <div class="container1">
@@ -97,7 +97,7 @@ const About = () => {
                </div>
               </div>
                </div>
-               <div className="col-4">
+               <div className="col-12 col-md-4  p-4">
                <div class="card" >
                
                <div class="container1">
@@ -116,7 +116,7 @@ const About = () => {
                </div>
               </div>
                </div>
-               <div className="col-4">
+               <div className="col-12 col-md-4  p-4">
                <div class="card" >
                
                <div class="container1">
@@ -142,7 +142,7 @@ const About = () => {
            <div class="container">
              
              <div className="row py-5">
-               <div className="col-4">
+               <div className="col-12 col-md-4  p-4">
                <div class="card" >
                
                <div class="container1">
@@ -161,7 +161,7 @@ const About = () => {
                </div>
               </div>
                </div>
-               <div className="col-4">
+               <div className="col-12 col-md-4  p-4">
                <div class="card" >
                
                <div class="container1">
@@ -180,7 +180,7 @@ const About = () => {
                </div>
               </div>
                </div>
-               <div className="col-4">
+               <div className="col-12 col-md-4  p-4">
                <div class="card" >
                
                <div class="container1">

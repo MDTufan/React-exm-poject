@@ -183,30 +183,79 @@ body{
   position: fixed;
    width: 300px;
   
-  background-color: burlywood;
-  height: 600px;
-  padding: 5px;
-}
-.ccc{
-  width: 300px;
-  
   /* background-color: burlywood; */
   height: 600px;
   padding: 5px;
 }
-.hhxx{
+.position-1{
+ /* position:fixed; */
+}
+.card-2{
+  
+  background-color:white;
+  width: 400px;
+  margin: auto;
+  height: 500px;
+  position:relative;
+  border-radius: 8px;
+ 
+
+}
+.ddee{
+  color: #250821;
+}
+.xx-card{
+  text-align: center;
+  color: #250821;
+ 
+}
+/* .hhxx{
+
   display: grid;
   grid-template-columns: 3fr 1fr;
   margin: 20px;
-}
+} */
 .hhxxx{
   display: grid;
   grid-template-columns:repeat(3,1fr);
   gap: 10px;
 }
+@media only screen  and (min-width: 900px)and (max-width: 1034px) {
+  
+  .hhxxx{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 700px)and (max-width: 899px)  {
+ 
+  .hhxxx{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
+  }
+}
+@media only screen  and (min-width: 600px)and (max-width: 699px) {
+ 
+  .hhxxx{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    gap: 10px;
+  }
+}
+@media only screen  and (max-width: 599px) {
+ 
+  .hhxxx{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    gap: 10px;
+  }
+}
 .card-1{
   width: 380px;
   height: auto;
+  /* z-index:0; */
  
 }
 .img-card {
@@ -214,11 +263,6 @@ body{
   height: 150px !important;
 }
 .vvv{
-  
+ 
   height: 500px;
-}
-.card2{
-  background-color: burlywood;
-  width: 300px;
-  height: 300px;
 }

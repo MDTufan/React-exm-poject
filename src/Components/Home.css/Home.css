@@ -1,7 +1,7 @@
 .img-3{
     display: flex;
     align-items: center;
-    justify-content:right;
-    width: 500px;
-    margin-left: 70px;
+    justify-content:flex-end;
+    margin-left: 20px;
+    
 }
