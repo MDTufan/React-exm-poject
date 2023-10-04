@@ -13,8 +13,7 @@ const [card,setcard]=useState([]);
 const handelAddtoCard=(product)=>{
 
 setcard(product)
-// alert("Show Your Caad detiles")
-console.log(product);
+
 }
 useEffect(()=>{
   fetch('https://fakestoreapi.com/products')

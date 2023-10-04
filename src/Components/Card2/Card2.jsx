@@ -5,7 +5,7 @@ const Card2 = ({card}) => {
   const deliteadd=(e)=>{
 console.log("gggggggg");
   };
-  console.log(card);
+ 
   return (
    <div className="card-2">
     <div className="mt-5 p-3">
