@@ -7,6 +7,7 @@ import Contact from "../Contact/Contact";
 
 import SignUp from "../SignUp/SignUp";
 import LogIn from "../Login/LogIn";
+import ProviterRouter from "../ProivetRouter/ProviterRouter";
 
 
 
@@ -22,7 +23,7 @@ const Router = () => {
         },
         {
           path:'/service',
-          element:<Service />
+          element: <ProviterRouter> <Service /> </ProviterRouter>
         },
         {
           path:'/about',
