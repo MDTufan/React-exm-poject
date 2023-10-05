@@ -1,7 +1,10 @@
 import Clock from "../Clock/Clock"
 import img from "../../assets/c-3.png"
+import img1 from "../../assets/11.png"
 import "../Contact.css/Contact.css"
+import { FaStar } from "react-icons/fa";
 import  "../Css/Main.css"
+import { FaMapMarkerAlt,FaPhoneVolume,FaEnvelope } from "react-icons/fa";
 
 
 const Contact = () => {
@@ -9,7 +12,7 @@ const Contact = () => {
     <div className="">
    <div className="container">
    <div className="row py-5">
-          <div className="col-12 col-md-6 p-4 py-5">
+          <div className="col-12 col-md-6 mt-5 p-4 py-5">
           <div className="py-2 mt-4">
           <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white">In this season, find the best</h4>
@@ -26,13 +29,44 @@ const Contact = () => {
           </div>
         </div>
    </div>
-    
+    <div className="container">
+      <div className="row">
+        <div className="col-4 d-flex bg-white py-3 rounded-pill">
+          <div className="">
+          <img className="ff-img" src={img1} alt="" />
+          </div>
+          <div className="">
+           <div className=" text-center ">
+           <FaStar className="text-warning " />
+            <FaStar className="text-warning " />
+            <FaStar className="text-warning " />
+            <FaStar className="text-warning " />
+            <FaStar className="text-warning " />
+          
+            
+           </div>
+
+            <p className="text-center p-2">Aenean molestie mauris eget sapien sagittist</p>
+          </div>
+          {/* <div className="row">
+            <div className="col-6">
+              <img src={img1} alt="" />
+            </div>
+            <div className="col-6">
+
+            </div>
+          </div> */}
+        </div>
+        <div className="col-4"></div>
+        <div className="col-4"></div>
+      </div>
+    </div>
     
       <div className="row py-5">
         <div className="col-12">
         <div className=''>
      <div className="">
-              <h1 className="text-center text-white py-4">This Is Google Map</h1>
+              <h1 className="text-center text-info py-4">This Is Google Map</h1>
       </div>
       <div className="map">
             <iframe className="map py-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57810.404607566685!2d89.02271261001017!3d25.096773484926903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc920e30f74a01%3A0x79daa6e9aa5ecdff!2sJoypurhat!5e0!3m2!1sen!2sbd!4v1690550887462!5m2!1sen!2sbd" ></iframe>
@@ -42,53 +76,59 @@ const Contact = () => {
         
     </div>
         </div>
-     
+     <div className="container">
+      <div className="row">
+        <div className="col-4 d-flex">
+          <FaMapMarkerAlt className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
+          <p className="text-info px-3 mt-3 fs-5 ">43 Raymouth Rd. Baltemoer, London 3910</p>
+        </div>
+        <div className="col-4  d-flex">
+         <FaPhoneVolume className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
+         <p  className="text-info px-3 mt-3 fs-5 ">+1 294 3925 3939</p>
+        </div>
+        <div className="col-4 d-flex">
+          <FaEnvelope className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
+          <p  className="text-info px-3 mt-3 fs-5 ">info@yourdomain.com</p>
+        </div>
+      </div>
+     </div>
     <div className="x9 py-5">
     <div class="container">
         <div class="row py-5">
         <form class="row g-3">
-          <h1 className="text-center text-white">Contact Me?</h1>
+          <h1 className="text-center text-info">Contact Me?</h1>
+          <h2 className="text-info">You know, Contact Form</h2>
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label text-white">Email</label>
-    <input type="email" className="form-control x99" id="inputEmail4" />
+    <label for="inputEmail4" class="form-label text-white fs-2">Email</label>
+    <input type="email" className="form-control x99 py-3  " id="inputEmail4" placeholder="Enter Your Email"/>
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label text-white">Password</label>
-    <input type="password" class="form-control" id="inputPassword4" />
+    <label for="inputPassword4" class="form-label text-white fs-2">Password</label>
+    <input type="password" class="form-control py-3 x99" id="inputPassword4"  placeholder="Enter Your Password"/>
   </div>
   <div class="col-12">
-    <label for="inputAddress" class="form-label text-white">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
+    <label for="inputAddress" class="form-label text-white fs-2">Address</label>
+    <input type="text" class="form-control py-3 x99" id="inputAddress" placeholder="1234 Main St" />
   </div>
   <div class="col-12">
-    <label for="inputAddress2" class="form-label text-white">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+    <label for="inputAddress2" class="form-label text-white fs-2">Address 2</label>
+    <input type="text" class="form-control py-3 x99" id="inputAddress2" placeholder="Apartment, studio, or floor" />
   </div>
   <div class="col-md-6">
-    <label for="inputCity" class="form-label text-white">City</label>
-    <input type="text" class="form-control" id="inputCity" />
+    <label for="inputCity" class="form-label text-white fs-2">City</label>
+    <input type="text" class="form-control py-3 x99" id="inputCity" placeholder="Your Live City"/>
   </div>
   <div class="col-md-4">
-    <label for="inputState" class="form-label text-white">State</label>
-    <select id="inputState" class="form-select">
+    <label for="inputState" class="form-label text-white fs-2">Skills</label>
+    <select id="inputState" class="form-select py-3 x99">
       <option selected>Choose...</option>
       <option>...</option>
     </select>
   </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label text-white">Zip</label>
-    <input type="text" class="form-control" id="inputZip" />
-  </div>
+  
+ 
   <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck" />
-      <label class="form-check-label text-white" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="submit" class="btn btn-info btn-des mt-3 py-3 px-4 rounded-pill">Send Massage</button>
   </div>
 </form>
         </div>

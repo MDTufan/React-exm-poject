@@ -6,9 +6,19 @@
    
 }
 .x9{
-    background-color: #181432;
+    background-color: transparent;
 }
 
-.x-99{
- background-color: aqua !important;
+.x99{
+ background-color:rgb(0, 255, 255) !important;
+ border: none;
+}
+.font{
+ font-size: 50px !important;
+}
+
+.ff-img{
+    width: 80px;
+    background-color: aqua;
+    border-radius: 50%;
 }

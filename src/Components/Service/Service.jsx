@@ -15,19 +15,39 @@ const handelAddtoCard=(product)=>{
 setcard(product)
 
 }
-useEffect(()=>{
+useEffect (()=>{
   fetch('https://fakestoreapi.com/products')
   .then(res=>res.json())
   .then(data=>setProduct(data))
-
+console.log(product);
 
 },[]);
 
 
   return (
-    <div>
+    <div className="d-flex">
 
 
+
+  <div className="one">
+  <div className="container ">
+<div className="hhxx">
+ <div className="hhxxx">
+  {
+           product.map((product ,id)=>{
+             
+             return(
+                 <Card  key={id} product={product} handelAddtoCard={handelAddtoCard} />
+              )
+       })
+
+         }
+</div>
+</div>
+</div>
+  </div>
+
+  <div className="two">
      <div className="position-1">
      <div className="container mt-5">
         <div className="row">
@@ -39,31 +59,8 @@ useEffect(()=>{
         </div>
       </div>
      </div>
-   <div className="container ">
-
-   <div className="hhxx">
-    <div className="hhxxx">
-    
-              {
-              product.map((product ,id)=>{
-                
-                return(
-                  
-                     
-                      <Card  key={id} product={product} handelAddtoCard={handelAddtoCard} />
-                     
-                )
-          })
-
-            }
-
-    </div>
-   
-   </div>
-   
-   </div>
-  
-    </div>
+     </div>
+ </div>
   );
 }
 

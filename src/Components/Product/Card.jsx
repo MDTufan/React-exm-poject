@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import  "../Css/Main.css"
 const Card = ({product,handelAddtoCard}) => {
    
-   
+   console.log(product);
    
   return (
    
          
-           <div className="card-1">
-             <div className="card p-2 my-5 vvv " >
+           <div className="card-1 ">
+             <div className="card  my-5 vvv " >
             <div className="">
             <img className='img-card' src={product.image}  alt="..." />
             <div className="card-body p-5 text-black">
