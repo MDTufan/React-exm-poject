@@ -21,10 +21,18 @@ const Navber = () => {
         <li className="nav-item">
           <NavLink className="nav-link fs-5 " aria-current="page" to="/about">About</NavLink>
         </li>
+        
         <li className="nav-item">
           <NavLink className="nav-link fs-5" aria-current="page" to="/contact">Contact</NavLink>
         </li>
-        
+        <li className="nav-item">
+          <NavLink className="nav-link fs-5" aria-current="page" to="/signup">SignUp</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link fs-5" aria-current="page" to="/login">LogIn</NavLink>
+        </li>
+       
+      
       
        
       </ul>

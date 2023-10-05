@@ -5,6 +5,10 @@ import About from "../About/About";
 import Service from "../Service/Service";
 import Contact from "../Contact/Contact";
 
+import SignUp from "../SignUp/SignUp";
+import LogIn from "../Login/LogIn";
+
+
 
 const Router = () => {
   const router=createBrowserRouter([
@@ -24,11 +28,21 @@ const Router = () => {
           path:'/about',
           element:<About />
         },
-        {
+         {
           path:'/contact',
           element:<Contact />
         },
-        
+         {
+          path:'/signup',
+          element:<SignUp />
+        },
+         {
+          path:'/login',
+          element:<LogIn />
+        },
+       
+       
+       
       ]
     }
   ])
