@@ -22,7 +22,9 @@ const About = () => {
       <div className="py-5">
         <div className="row py-5">
          
-         <div className="col-12 col-md-6  p-4 py-5">
+         <div className="col-12 col-md-6  p-4 py-5" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white">In this season, find the best</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
@@ -30,7 +32,9 @@ const About = () => {
             <button className="btn btn-info py-3 px-5 btn-des">click me</button>
             </div>
           </div>
-          <div className="col-12 col-md-6  p-4 ">
+          <div className="col-12 col-md-6  p-4 " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <div className="img-design1 ">
             <img className="xxx-img xxxx x4" src={img} alt="" />
             </div>
@@ -42,13 +46,17 @@ const About = () => {
         <div className="container">
         <div className="row py-5">
           
-          <div className="col-12 col-md-6  p-4 py-5 ">
+          <div className="col-12 col-md-6  p-4 py-5 "  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <div className="img-design2">
             <img className="xxx-img xxxx" src={img1} alt="" />
             </div>
           </div>
           <div class="col-12 col-md-6  p-4 " >
-               <div className="ccc py-5">
+               <div className="ccc py-5" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                
                         <h1 class="py-3 text-white">We are marketpress</h1>
                         <p class="p-1clor text-white">Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
@@ -77,7 +85,9 @@ const About = () => {
        
        <section >
          <div class="container">
-           <div data-aos="zoom-in" >
+           <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" >
              <h1 class=" text-center text-white py-5">Latest <span>Projrct</span> <span>Service</span></h1>
          </div>
          </div>
@@ -86,7 +96,9 @@ const About = () => {
              <div className="row py-5">
                <div className="col-12 col-md-4  p-4">
 
-               <div class="card" >
+               <div class="card" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                
                <div class="container1">
               
@@ -107,7 +119,9 @@ const About = () => {
               <h2 className="text-white text-center">Poject-1</h2>
                </div>
                <div className="col-12 col-md-4  p-4">
-               <div class="card" >
+               <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                
                <div class="container1">
                
@@ -127,7 +141,9 @@ const About = () => {
               <h2 className="text-white text-center">Poject-2</h2>
                </div>
                <div className="col-12 col-md-4  p-4">
-               <div class="card" >
+               <div class="card" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                
                <div class="container1">
                
@@ -154,7 +170,9 @@ const About = () => {
              
              <div className="row py-5">
                <div className="col-12 col-md-4  p-4">
-               <div class="card" >
+               <div class="card" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                
                <div class="container1">
                
@@ -174,7 +192,9 @@ const About = () => {
               <h2 className="text-white text-center">Poject-4</h2>
                </div>
                <div className="col-12 col-md-4  p-4">
-               <div class="card" >
+               <div class="card" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                
                <div class="container1">
                
@@ -194,7 +214,9 @@ const About = () => {
               <h2 className="text-white text-center">Poject-5</h2>
                </div>
                <div className="col-12 col-md-4  p-4">
-               <div class="card" >
+               <div class="card" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                
                <div class="container1">
                
@@ -224,13 +246,15 @@ const About = () => {
       </div>
 
       <div className="container">
-        <div className="row bg-white">
+        <div className="row bg-info mb-5" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <div className="col-12">
 <h1 className="text-center text-info mb-4">Testimonials</h1>
           <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   
   <div class="carousel-inner  mb-5">
-    <div class="carousel-item active text-center mb-5" data-bs-interval="2000">
+    <div class="carousel-item active text-center mb-5" data-bs-interval="1000">
       <img src={img8} class=" rounded-circle width-1 mt-3" alt="..."/>
       <h2 className="text-danger mt-5">Jacob Sikim </h2>
       <p className="text-black">Local shop owner</p>
@@ -238,14 +262,14 @@ const About = () => {
       </p>
       
     </div>
-    <div class="carousel-item text-center mb-5" data-bs-interval="2000">
+    <div class="carousel-item text-center mb-5" data-bs-interval="1000">
     <img src={img9} class=" rounded-circle  width-1 mt-3" alt="..."/>
       <h2 className="text-danger mt-5"> David Niph </h2>
       <p className="text-black">Local shop owner</p>
       <p className="text-black fs-4">" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
       </p>
     </div>
-    <div class="carousel-item text-center mb-5" >
+    <div class="carousel-item text-center mb-5" data-bs-interval="1000" >
     <img src={img10} class=" rounded-circle  width-1 mt-3" alt="..."/>
       <h2 className="text-danger mt-5">Saira Hakim  </h2>
       <p className="text-black">Local shop owner</p>

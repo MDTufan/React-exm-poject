@@ -11,13 +11,13 @@ const Footer = () => {
       <div className="container">
             <div className="row">
                <div className ="col-12 col-sm-3 col-md-3 py-4">
-               <h6 className="text-white">Adderes</h6>
+               <h6 className="text-black fs-2 ">Adderes</h6>
 
                     <p className="pt-2">Creative UI/UX Design We Have. Make <br />
                         For Your Own Now. </p>
-                        <p>123 Street, New York, USA</p>
-                        <p>+012 345 67890</p>
-                        <p>info@example.com</p>
+                        <p className='text-black'>123 Street, New York, USA</p>
+                        <p className='text-black' >+012 345 67890</p>
+                        <p className='text-black'>info@example.com</p>
                         <div className="ff">
                           <FaFacebookSquare className='xzxz mx-2'/>
                           <FaFacebookMessenger  className='xzxz mx-2'/>
@@ -27,7 +27,7 @@ const Footer = () => {
                   
                 </div> 
                 <div className="col-12 col-sm-2 col-md-2 py-4">
-                    <h6 className="text-white">Quick Link</h6>
+                    <h6 className="text-black fs-2">Quick Link</h6>
                  
                      <div className="link-footer">
                         <Link className='nav-link' to="">Home</Link> 
@@ -40,7 +40,7 @@ const Footer = () => {
     
                 </div>
                 <div className="col-12 col-sm-2 col-md-2 py-4">
-                    <h6 className="text-white">Service</h6>
+                    <h6 className="text-black fs-2">Service</h6>
                    
                         <div className="link-footer">
                         <Link  className='nav-link' to="">Web Design & Development</Link >
@@ -51,7 +51,7 @@ const Footer = () => {
                     
                 </div>
                 <div className="col-12 col-sm-2 col-md-2 py-4">
-                    <h6 className="text-white">Support</h6>
+                    <h6 className="text-black fs-2">Support</h6>
                  
                         <div className="link-footer">
                         <Link className='nav-link' to="">Company</Link >
@@ -63,7 +63,7 @@ const Footer = () => {
     
                 </div>
                 <div className="col-12 col-sm-3 col-md-3 py-4 ">
-                    <h6 className="text-white">News Letter</h6>
+                    <h6 className="text-black fs-2">News Letter</h6>
                     <p>Subcribe To Receive Future <br /> Update</p>
                     <div className="d-flex bg-white py-2 rounded-pill">
                         <div className="">

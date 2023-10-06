@@ -29,7 +29,9 @@ tabTitle("React App")
       <div className="container">
         <div className="row py-5">
           <div className="col-12 col-md-6 mt-5  ">
-          <div className="p-4 mt-5">
+          <div className="p-4 mt-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white font-x mt-3">In this season, find the best</h4>
             <p className="text-white font-xx mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
@@ -41,7 +43,9 @@ tabTitle("React App")
             </div>
           </div>
           </div>
-          <div className="col-12 col-md-6 col-sm-6">
+          <div className="col-12 col-md-6 col-sm-6" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <div className="img-design ml-5 p-4">
             <img className=" img-3 img-fluid" src={img} alt="" />
             </div>
@@ -63,13 +67,17 @@ tabTitle("React App")
       <div className=" py-5">
       < div className='Blog'>
         <div className="container">
-          <h1 className='xx-4 text-white fw-bold fs-1'>Service</h1>
+          <h1 className='xx-4 text-white fw-bold fs-1' data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">Service</h1>
           <div className="row blog py-5">
         <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
-            <div class="card color-7" >
+            <div class="card color-7" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           
            
-             <img className="img-fluid img-size" src={imgx1} alt="" />
+             <img className="img-fluid img-size " src={imgx1} alt="" />
              <div className="">
               <p className="text-black text-center">123 Street, New York, USA</p>
              <FaStar className="text-warning" />
@@ -87,7 +95,7 @@ tabTitle("React App")
             </div>
           </div>
         <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
-            <div class="card  color-7" >
+            <div class="card  color-7" data-aos="flip-up" >
           
             <img className="img-fluid img-size" src={imgx2} alt="" />
             <p className="text-black text-center">23 Street, New York, USA</p>
@@ -107,7 +115,9 @@ tabTitle("React App")
             </div>
           </div>
         <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
-            <div class="card  color-7 " >
+            <div class="card  color-7 " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           
             <img className="img-fluid img-size" src={imgx3} alt="" />
             <p className="text-black text-center">03k Street, New York, USA</p>
@@ -129,7 +139,7 @@ tabTitle("React App")
           </div>
           <div className="row blog">
           <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
-            <div class="card  color-7 " >
+            <div class="card  color-7 " data-aos="zoom-in">
           
            <img className="img-fluid img-size" src={imgx4} alt="" />
            <p className="text-black text-center">123 Street, New York, USA</p>
@@ -149,7 +159,7 @@ tabTitle("React App")
             </div>
           </div>
           <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
-            <div class="card  color-7 " >
+            <div class="card  color-7 " data-aos="flip-up">
           
             <img className="img-fluid img-size" src={imgx5} alt="" />
             <p className="text-black text-center">123 Street, New York, USA</p>
@@ -169,7 +179,7 @@ tabTitle("React App")
             </div>
           </div>
           <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
-            <div class="card  color-7" >
+            <div class="card  color-7" data-aos="zoom-in-left">
           
             <img className="img-fluid img-size" src={imgx6} alt="" />
             <p className="text-black text-center">123 Street, New York, USA</p>
@@ -202,7 +212,7 @@ tabTitle("React App")
       <div className="py-5">
         <div className="row py-5">
          
-         <div className="col-12 col-md-6 mt-3  p-4 py-5">
+         <div className="col-12 col-md-6 mt-3  p-4 py-5" data-aos="fade-right">
             <h1 className="text-warning">WoW!</h1>
             <h4 className="text-white"><span className="text-danger">35% </span>Discount.Amizeing</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
@@ -212,7 +222,9 @@ tabTitle("React App")
             </div>
             <img className="cc-3" src={imgx12} alt="" />
           </div>
-          <div className="col-12 col-md-6  p-4 ">
+          <div className="col-12 col-md-6  p-4 " data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <div className="img-design1 ">
             <img className="mb-5" src={imgx7} alt="" />
             </div>
@@ -224,13 +236,15 @@ tabTitle("React App")
 
 
 
-      <div className="">
+      <div className="mt-5">
       < div className='Blog'>
         <div className="container">
           <h1 className='xx-4 text-white'>website Usage In Language</h1>
           <div className="row blog">
         <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
-            <div class="card R" >
+            <div class="card R" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           
             <h2 className='text-black py-3'>HTML</h2>
             <img className=" mx-auto rounded-pill card-o" src={imgx8} alt="" />
@@ -253,7 +267,9 @@ tabTitle("React App")
             </div>
           </div>
         <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
-            <div class="card R" >
+            <div class="card R" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           
             <h2 className='text-black py-3'>CSS</h2>
             <img className=" mx-auto rounded-pill card-o" src={imgx9} alt="" />
@@ -274,7 +290,8 @@ tabTitle("React App")
             </div>
           </div>
         <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
-            <div class="card R" >
+            <div class="card R" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" >
           
             <h2 className='text-black py-3'>JAVASCRIPT</h2>
             <img className=" mx-auto rounded-pill card-o" src={imgx10} alt="" />
@@ -297,7 +314,8 @@ tabTitle("React App")
           </div>
           <div className="row blog">
           <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
-            <div class="card R" >
+            <div class="card R" data-aos="fade-up"
+     data-aos-duration="3000" >
           
             <h2 className='text-black py-3'>BOOTSTRAP</h2>
             <img className=" mx-auto rounded-pill card-o" src={imgx9} alt="" />
@@ -318,7 +336,9 @@ tabTitle("React App")
             </div>
           </div>
           <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
-            <div class="card R" >
+            <div class="card R" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" >
           
             <h2 className='text-black py-3'>REACT</h2>
             <img className=" mx-auto rounded-pill card-o" src={imgx8} alt="" />
@@ -339,7 +359,8 @@ tabTitle("React App")
             </div>
           </div>
           <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
-            <div class="card R" >
+            <div class="card R" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
           
             <h2 className='text-black py-3'>NODE&EXPRESS</h2>
             <img className=" mx-auto rounded-pill card-o" src={imgx10} alt="" />

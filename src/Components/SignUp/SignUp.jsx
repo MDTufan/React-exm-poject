@@ -73,7 +73,9 @@ const SignUp = () => {
     <div className="py-5">
           <div className="container">
     <div className="row">
-      <div className="col-12 my-5 ">
+      <div className="col-12 my-5 " data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
     <form onSubmit={hendelSingUp} className="bg-white rounded form-size1 mx-auto text-center mt-5">
 
   <div class="form-row  p-5 mt-5 ">

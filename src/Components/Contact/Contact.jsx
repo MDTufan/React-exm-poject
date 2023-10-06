@@ -24,7 +24,9 @@ const Contact = () => {
             </div>
           </div>
           </div>
-          <div className="col-12 col-md-6 p-4 ">
+          <div className="col-12 col-md-6 p-4 " data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
             <div className="">
             <img className="img-1 img-fluid" src={img} alt="" />
             </div>
@@ -33,7 +35,9 @@ const Contact = () => {
    </div>
     <div className="container">
       <div className="row">
-        <div className="col-4 d-flex bg-white py-3 rounded-pill">
+        <div className="col-4 d-flex bg-white py-3 rounded-pill" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <div className="">
           <img className="ff-img" src={img1} alt="" />
           </div>
@@ -50,14 +54,7 @@ const Contact = () => {
 
             <p className="text-center p-2">Aenean molestie mauris eget sapien sagittist</p>
           </div>
-          {/* <div className="row">
-            <div className="col-6">
-              <img src={img1} alt="" />
-            </div>
-            <div className="col-6">
-
-            </div>
-          </div> */}
+          
         </div>
         <div className="col-4"></div>
         <div className="col-4"></div>
@@ -68,9 +65,13 @@ const Contact = () => {
         <div className="col-12">
         <div className=''>
      <div className="">
-              <h1 className="text-center text-info py-4">This Is Google Map</h1>
+              <h1 className="text-center text-info py-4" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">This Is Google Map</h1>
       </div>
-      <div className="map">
+      <div className="map" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <iframe className="map py-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57810.404607566685!2d89.02271261001017!3d25.096773484926903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc920e30f74a01%3A0x79daa6e9aa5ecdff!2sJoypurhat!5e0!3m2!1sen!2sbd!4v1690550887462!5m2!1sen!2sbd" ></iframe>
         </div>
         {/* <Clock /> */}
@@ -80,15 +81,21 @@ const Contact = () => {
         </div>
      <div className="container">
       <div className="row">
-        <div className="col-4 d-flex">
+        <div className="col-4 d-flex" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <FaMapMarkerAlt className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
           <p className="text-info px-3 mt-3 fs-5 ">43 Raymouth Rd. Baltemoer, London 3910</p>
         </div>
-        <div className="col-4  d-flex">
+        <div className="col-4  d-flex" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
          <FaPhoneVolume className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
          <p  className="text-info px-3 mt-3 fs-5 ">+1 294 3925 3939</p>
         </div>
-        <div className="col-4 d-flex">
+        <div className="col-4 d-flex" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           <FaEnvelope className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
           <p  className="text-info px-3 mt-3 fs-5 ">info@yourdomain.com</p>
         </div>
@@ -96,9 +103,11 @@ const Contact = () => {
      </div>
     <div className="x9 py-5">
     <div class="container">
-        <div class="row py-5">
-        <form class="row g-3">
-          <h1 className="text-center text-info">Contact Me?</h1>
+        <div class="row py-5" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <form class="row g-3" >
+          <h1 className="text-center text-info" data-aos="zoom-in">Contact Me?</h1>
           <h2 className="text-info">You know, Contact Form</h2>
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label text-white fs-2">Email</label>

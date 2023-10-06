@@ -1,6 +1,9 @@
 import { useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Context/UserContext";
+import "../Navber.css/Navber.css"
+import img from "../../assets/logu.png"
+
 
 
 const Navber = () => {
@@ -13,7 +16,7 @@ const Navber = () => {
     <div>
       <nav className="navbar navbar-expand-lg fixed-top bg-color">
   <div className="container">
-    <a className="navbar-brand " href="#">Navbar</a>
+    <Link className="navbar-brand " to="/"><img className=" rounded-circle imgfluid" src={img} alt="" /> <span className="fs-3  mt-4">PestKit</span></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -47,7 +50,9 @@ const Navber = () => {
         </li>
        }
       
-      
+      <li>
+      <img className='rounded-circle circle-size ' src={user?.photoURL} alt="" />
+     </li>
        
       </ul>
       
