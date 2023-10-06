@@ -36,9 +36,9 @@ body{
 }
 
 
-.bgc{
+/* .bgc{
     background-color: #181432;
-}
+} */
 
 .map{
     width: 100% !important;
@@ -276,7 +276,7 @@ position: fixed;
   background-color: transparent;
   color: blue;
   font-size: 40px;
-  b
+  
  
 }
 
@@ -291,4 +291,7 @@ position: fixed;
   margin-top: 300px !important;
   margin-left: 300px !important;
   
+}
+.p-1{
+  font-size: 15px !important;
 }

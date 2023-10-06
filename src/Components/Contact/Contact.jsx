@@ -6,6 +6,7 @@ import { FaStar } from "react-icons/fa";
 import  "../Css/Main.css"
 import { FaMapMarkerAlt,FaPhoneVolume,FaEnvelope } from "react-icons/fa";
 import { tabTitle } from "../../../Title";
+import { Link } from "react-router-dom";
 
 
 const Contact = () => {
@@ -20,7 +21,7 @@ const Contact = () => {
             <h4 className="text-white">In this season, find the best</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
             <div className="pt-5">
-            <button className="btn btn-info py-3 px-5 btn-des">click me</button>
+            <Link className="btn btn-info py-3 mb-5 px-5 btn-des " to="/service">Enroll Now</Link>
             </div>
           </div>
           </div>
@@ -101,45 +102,48 @@ const Contact = () => {
         </div>
       </div>
      </div>
-    <div className="x9 py-5">
+    <div className="x9 py-5 ">
     <div class="container">
         <div class="row py-5" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-        <form class="row g-3" >
-          <h1 className="text-center text-info" data-aos="zoom-in">Contact Me?</h1>
-          <h2 className="text-info">You know, Contact Form</h2>
+        <form class="row g-3 bg-white p-5" >
+        <h1 className="text-black text-center">Contact Me?</h1>
+          <h2 className="text-black">You know, Contact Form</h2>
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label text-white fs-2">Email</label>
+    <label for="inputEmail4" class="form-label text-black fs-2">Email</label>
     <input type="email" className="form-control x99 py-3  " id="inputEmail4" placeholder="Enter Your Email"/>
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label text-white fs-2">Password</label>
+    <label for="inputPassword4" class="form-label text-black fs-2">Password</label>
     <input type="password" class="form-control py-3 x99" id="inputPassword4"  placeholder="Enter Your Password"/>
   </div>
   <div class="col-12">
-    <label for="inputAddress" class="form-label text-white fs-2">Address</label>
+    <label for="inputAddress" class="form-label text-black fs-2">Address</label>
     <input type="text" class="form-control py-3 x99" id="inputAddress" placeholder="1234 Main St" />
   </div>
   <div class="col-12">
-    <label for="inputAddress2" class="form-label text-white fs-2">Address 2</label>
+    <label for="inputAddress2" class="form-label text-black fs-2">Address 2</label>
     <input type="text" class="form-control py-3 x99" id="inputAddress2" placeholder="Apartment, studio, or floor" />
   </div>
   <div class="col-md-6">
-    <label for="inputCity" class="form-label text-white fs-2">City</label>
+    <label for="inputCity" class="form-label text-black fs-2">City</label>
     <input type="text" class="form-control py-3 x99" id="inputCity" placeholder="Your Live City"/>
   </div>
   <div class="col-md-4">
-    <label for="inputState" class="form-label text-white fs-2">Skills</label>
+    <label for="inputState" class="form-label text-black fs-2">Skills</label>
     <select id="inputState" class="form-select py-3 x99">
       <option selected>Choose...</option>
-      <option>...</option>
+      <option>HTML</option>
+      <option>CSS</option>
+      <option>Javascript</option>
+      <option>Node</option>
     </select>
   </div>
   
  
   <div class="col-12">
-    <button type="submit" class="btn btn-info btn-des mt-3 py-3 px-4 rounded-pill">Send Massage</button>
+    <button type="submit" class="btn btn-info btn-des mt-3  py-3 px-4 rounded-pill">Send Massage</button>
   </div>
 </form>
         </div>

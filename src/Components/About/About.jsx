@@ -12,6 +12,7 @@ import img10 from "../../assets/avatar1.png"
 import "../About.css/About.css"
 import  "../Css/Main.css"
 import { tabTitle } from "../../../Title"
+import { Link } from "react-router-dom"
 
 const About = () => {
 
@@ -29,7 +30,7 @@ const About = () => {
             <h4 className="text-white">In this season, find the best</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
             <div className="pt-5">
-            <button className="btn btn-info py-3 px-5 btn-des">click me</button>
+            <Link className="btn btn-info py-3 mb-5 px-5 btn-des " to="/service">Enroll Now</Link>
             </div>
           </div>
           <div className="col-12 col-md-6  p-4 " data-aos="fade-down"
@@ -42,7 +43,7 @@ const About = () => {
          </div>
         </div>
       </div>
-      <div className="bgc">
+      <div className="bg-white bgc">
         <div className="container">
         <div className="row py-5">
           
@@ -58,22 +59,22 @@ const About = () => {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
                
-                        <h1 class="py-3 text-white">We are marketpress</h1>
-                        <p class="p-1clor text-white">Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        <h1 class="py-3 text-black">We are marketpress</h1>
+                        <p class="p-1clor">Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                         <ul>
-                            <li className="text-white">Credibly innovate granular internal</li>
+                            <li className="">Credibly innovate granular internal</li>
                         </ul>
                         <ul>
-                            <li className="text-white">Grantedly underconstructions reloaded</li>
+                            <li className="">Grantedly underconstructions reloaded</li>
                         </ul>
                         <ul>
-                            <li className="text-white">Interactively procrastinate high-payoff</li>
+                            <li className="">Interactively procrastinate high-payoff</li>
                         </ul>
                         <ul>
-                            <li className="text-white">Completely synergize resource taxing relationships</li>
+                            <li className="">Completely synergize resource taxing relationships</li>
                         </ul>
                          <div className="pt-5">
-                          <button className="btn btn-info py-3 px-5 btn-des">click me</button>
+                         <Link className="btn btn-info py-3 mb-5 px-5 btn-des " to="/service">Enroll Now</Link>
                           </div>
                         </div>         
           </div>
@@ -105,10 +106,10 @@ const About = () => {
                <img className="x5" src={img7} alt="" />
                  <div class="overlay">
                    <div class="text">
-                     <h3 class="h3-1 ">Web Development</h3>
-                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
+                     <h3 class="h3-1 fs-3 mt-5 text-black">Web Development</h3>
+                     <p class="p-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
                      <div class="btn-92">
-                       <a href="#" class=" btn btn-9">Download CV</a>
+                       <a href="#" class=" btn btn-danger btn-9">Download CV</a>
                      </div>
                    </div>
                  </div>
@@ -127,11 +128,11 @@ const About = () => {
                
                <img className="x5" src={img6} alt="" />
                  <div class="overlay">
-                   <div class="text">
-                     <h3 class="h3-1">Web Development</h3>
-                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
+                 <div class="text">
+                     <h3 class="h3-1 fs-3 mt-5 text-black">Web Development</h3>
+                     <p class="p-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
                      <div class="btn-92">
-                       <a href="#" class=" btn-9">Download CV</a>
+                       <a href="#" class=" btn btn-danger btn-9">Download CV</a>
                      </div>
                    </div>
                  </div>
@@ -149,11 +150,11 @@ const About = () => {
                
                <img className="x5" src={img2} alt="" />
                  <div class="overlay">
-                   <div class="text">
-                     <h3 class="h3-1">Web Development</h3>
-                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
+                 <div class="text">
+                     <h3 class="h3-1 fs-3 mt-5 text-black">Web Development</h3>
+                     <p class="p-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
                      <div class="btn-92">
-                       <a href="#" class=" btn-9">Download CV</a>
+                       <a href="#" class=" btn btn-danger btn-9">Download CV</a>
                      </div>
                    </div>
                  </div>
@@ -178,11 +179,11 @@ const About = () => {
                
                <img className="x5" src={img3} alt="" />
                  <div class="overlay">
-                   <div class="text">
-                     <h3 class="h3-1">Web Development</h3>
-                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
+                 <div class="text">
+                     <h3 class="h3-1 fs-3 mt-5 text-black">Web Development</h3>
+                     <p class="p-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
                      <div class="btn-92">
-                       <a href="#" class=" btn-9">Download CV</a>
+                       <a href="#" class=" btn btn-danger btn-9">Download CV</a>
                      </div>
                    </div>
                  </div>
@@ -200,11 +201,11 @@ const About = () => {
                
                <img className="x5" src={img4} alt="" />
                  <div class="overlay">
-                   <div class="text">
-                     <h3 class="h3-1">Web Development</h3>
-                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
+                 <div class="text">
+                     <h3 class="h3-1 fs-3 mt-5 text-black">Web Development</h3>
+                     <p class="p-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
                      <div class="btn-92">
-                       <a href="#" class=" btn-9">Download CV</a>
+                       <a href="#" class=" btn btn-danger btn-9">Download CV</a>
                      </div>
                    </div>
                  </div>
@@ -222,11 +223,11 @@ const About = () => {
                
                <img className="x5" src={img5} alt="" />
                  <div class="overlay">
-                   <div class="text">
-                     <h3 class="h3-1">Web Development</h3>
-                     <p class="p-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
+                 <div class="text">
+                     <h3 class="h3-1 fs-3 mt-5 text-black">Web Development</h3>
+                     <p class="p-1 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio at, exercitationem culpa suscipit tempore voluptatum </p>
                      <div class="btn-92">
-                       <a href="#" class=" btn-9">Download CV</a>
+                       <a href="#" class=" btn btn-danger btn-9">Download CV</a>
                      </div>
                    </div>
                  </div>

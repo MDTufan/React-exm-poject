@@ -39,7 +39,7 @@ tabTitle("React App")
             
             </div>
             <div className="pt-5">
-            <button className="btn btn-info py-3 px-5 btn-des">click me</button>
+            <Link className="btn btn-info py-3 mb-5 px-5 btn-des " to="/service">Enroll Now</Link>
             </div>
           </div>
           </div>

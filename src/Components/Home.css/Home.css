@@ -11,6 +11,7 @@
 }
 .color-7{
     background-color: rgb(244, 241, 253);
+    transition: 1s all !important;
 }
 
 .color-7:hover{
