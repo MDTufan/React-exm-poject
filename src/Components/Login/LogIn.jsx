@@ -56,7 +56,7 @@ const hendelLogin=(e)=>{
   
   
   <div className="">
-    <Link to="/signup" >Create A New Accounts</Link>
+    <Link className="btn text-primary" to="/signup" >Create A New Accounts</Link>
   </div>
   
   <input type="submit" class="btn btn-info py-3 px-5 mt-5 btn-des" value="LogIn"></input>

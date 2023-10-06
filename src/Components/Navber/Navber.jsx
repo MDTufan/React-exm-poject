@@ -41,9 +41,9 @@ const Navber = () => {
        {
 
         user?.uid ?<li className="nav-item">
-        <button onClick={handellogout} className="nav-link fs-5" >LogOut</button>
+        <button onClick={handellogout} className=" btn btn-danger  fs-5" >LogOut</button>
       </li>:<li className="nav-item">
-          <NavLink className="nav-link fs-5" aria-current="page" to="/login">LogIn</NavLink>
+          <button className=" btn btn-danger  fs-5"  >LogIn</button>
         </li>
        }
       
