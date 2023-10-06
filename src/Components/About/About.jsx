@@ -21,14 +21,14 @@ const About = () => {
     <div>
       <div className="container">
       <div className="py-5">
-        <div className="row py-5">
+        <div className="row py-5 mt-5">
          
          <div className="col-12 col-md-6  p-4 py-5" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
             <h1 className="text-white">Exclusive collection for everyone</h1>
-            <h4 className="text-white">In this season, find the best</h4>
-            <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
+            <h4 className="text-white mt-5">In this season, find the best</h4>
+            <p className="text-white mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
             <div className="pt-5">
             <Link className="btn btn-info py-3 mb-5 px-5 btn-des " to="/service">Enroll Now</Link>
             </div>
@@ -257,23 +257,23 @@ const About = () => {
   <div class="carousel-inner  mb-5">
     <div class="carousel-item active text-center mb-5" data-bs-interval="1000">
       <img src={img8} class=" rounded-circle width-1 mt-3" alt="..."/>
-      <h2 className="text-danger mt-5">Jacob Sikim </h2>
-      <p className="text-black">Local shop owner</p>
+      <h2 className="text-black mt-5">Jacob Sikim </h2>
+      <p className="">Local shop owner</p>
       <p className="text-black fs-4">" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
       </p>
       
     </div>
     <div class="carousel-item text-center mb-5" data-bs-interval="1000">
     <img src={img9} class=" rounded-circle  width-1 mt-3" alt="..."/>
-      <h2 className="text-danger mt-5"> David Niph </h2>
-      <p className="text-black">Local shop owner</p>
+      <h2 className="text-black mt-5"> David Niph </h2>
+      <p className="">Local shop owner</p>
       <p className="text-black fs-4">" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
       </p>
     </div>
     <div class="carousel-item text-center mb-5" data-bs-interval="1000" >
     <img src={img10} class=" rounded-circle  width-1 mt-3" alt="..."/>
-      <h2 className="text-danger mt-5">Saira Hakim  </h2>
-      <p className="text-black">Local shop owner</p>
+      <h2 className="text-black mt-5">Saira Hakim  </h2>
+      <p className="">Local shop owner</p>
       <p className="text-black fs-4">" Sed ut perspiciatis unde omnis iste natus error veritatis et  quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
     </p>
     </div>

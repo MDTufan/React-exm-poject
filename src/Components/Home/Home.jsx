@@ -33,8 +33,8 @@ tabTitle("React App")
      data-aos-easing="linear"
      data-aos-duration="1500">
           <h1 className="text-white">Exclusive collection for everyone</h1>
-            <h4 className="text-white font-x mt-3">In this season, find the best</h4>
-            <p className="text-white font-xx mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
+            <h4 className="text-white font-x mt-5">In this season, find the best</h4>
+            <p className="text-white font-xx mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
             <div className="">
             
             </div>
@@ -43,7 +43,7 @@ tabTitle("React App")
             </div>
           </div>
           </div>
-          <div className="col-12 col-md-6 col-sm-6" data-aos="fade-down"
+          <div className="col-12 col-md-6 " data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
             <div className="img-design ml-5 p-4">
@@ -71,7 +71,7 @@ tabTitle("React App")
      data-aos-easing="linear"
      data-aos-duration="1500">Service</h1>
           <div className="row blog py-5">
-        <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
+        <div className="col-12  col-md-4 col-sm-12 ">
             <div class="card color-7" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -94,7 +94,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-        <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
+        <div className="col-12  col-md-4  col-sm-12  ">
             <div class="card  color-7" data-aos="flip-up" >
           
             <img className="img-fluid img-size" src={imgx2} alt="" />
@@ -114,7 +114,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-        <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
+        <div className="col-12  col-md-4  col-sm-12  ">
             <div class="card  color-7 " data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -138,7 +138,7 @@ tabTitle("React App")
           </div>
           </div>
           <div className="row blog">
-          <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
+          <div className="col-12  col-md-4 col-sm-12 ">
             <div class="card  color-7 " data-aos="zoom-in">
           
            <img className="img-fluid img-size" src={imgx4} alt="" />
@@ -158,7 +158,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
+          <div className="col-12  col-md-4  col-sm-12 ">
             <div class="card  color-7 " data-aos="flip-up">
           
             <img className="img-fluid img-size" src={imgx5} alt="" />
@@ -178,7 +178,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
+          <div className="col-12  col-md-4  col-sm-12 ">
             <div class="card  color-7" data-aos="zoom-in-left">
           
             <img className="img-fluid img-size" src={imgx6} alt="" />
@@ -240,7 +240,7 @@ tabTitle("React App")
       < div className='Blog'>
         <div className="container">
           <h1 className='xx-4 text-white'>website Usage In Language</h1>
-          <div className="row blog">
+          <div className="row blog mt-5">
         <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
             <div class="card R" data-aos="fade-down"
      data-aos-easing="linear"
@@ -312,7 +312,7 @@ tabTitle("React App")
             </div>
           </div>
           </div>
-          <div className="row blog">
+          <div className="row blog mt-5">
           <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
             <div class="card R" data-aos="fade-up"
      data-aos-duration="3000" >

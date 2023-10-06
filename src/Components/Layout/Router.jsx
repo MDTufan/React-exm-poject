@@ -25,6 +25,7 @@ const Router = () => {
           path:'/service',
           element: <ProviterRouter> <Service /> </ProviterRouter>
         },
+       
         {
           path:'/about',
           element:<About />

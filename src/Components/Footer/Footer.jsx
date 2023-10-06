@@ -19,7 +19,7 @@ const Footer = () => {
                         <p className='text-black' >+012 345 67890</p>
                         <p className='text-black'>info@example.com</p>
                         <div className="ff">
-                          <FaFacebookSquare className='xzxz mx-2'/>
+                          <FaFacebookSquare className='xzxz  mx-2'/>
                           <FaFacebookMessenger  className='xzxz mx-2'/>
                           <FaTwitterSquare className='xzxz mx-2' />
                           <FaGithubSquare className='xzxz mx-2' />

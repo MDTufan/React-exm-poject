@@ -14,12 +14,12 @@ const Contact = () => {
   return (
     <div className="">
    <div className="container">
-   <div className="row py-5">
+   <div className="row py-5 mt-5">
           <div className="col-12 col-md-6 mt-5 p-4 py-5">
           <div className="py-2 mt-4">
           <h1 className="text-white">Exclusive collection for everyone</h1>
-            <h4 className="text-white">In this season, find the best</h4>
-            <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
+            <h4 className="text-white mt-5">In this season, find the best</h4>
+            <p className="text-white mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
             <div className="pt-5">
             <Link className="btn btn-info py-3 mb-5 px-5 btn-des " to="/service">Enroll Now</Link>
             </div>
@@ -36,7 +36,7 @@ const Contact = () => {
    </div>
     <div className="container">
       <div className="row">
-        <div className="col-4 d-flex bg-white py-3 rounded-pill" data-aos="flip-left"
+        <div className="col-12 col-md-4 d-flex bg-white py-3 rounded-pill" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <div className="">
@@ -82,13 +82,13 @@ const Contact = () => {
         </div>
      <div className="container">
       <div className="row">
-        <div className="col-4 d-flex" data-aos="flip-left"
+        <div className="col-12 col-md-4 d-flex" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <FaMapMarkerAlt className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
           <p className="text-info px-3 mt-3 fs-5 ">43 Raymouth Rd. Baltemoer, London 3910</p>
         </div>
-        <div className="col-4  d-flex" data-aos="flip-left"
+        <div className="col-12 col-md-4 col-md-4  d-flex" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
          <FaPhoneVolume className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
