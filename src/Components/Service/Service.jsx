@@ -3,10 +3,13 @@ import { useEffect, useState } from "react";
 import  "../Css/Main.css"
 import Card from "../Product/Card";
 import Card2 from "../Card2/Card2";
+import { tabTitle } from "../../../Title";
 
 
 
 const Service = () => {
+
+  tabTitle("React App | Service")
 const [product,setProduct]=useState([]);
 const [card,setcard]=useState([]);
 

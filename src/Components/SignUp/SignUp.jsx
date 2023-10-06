@@ -4,10 +4,12 @@ import { Link } from "react-router-dom"
 import "../Singup.css/SignUp.css"
 import { AuthContext } from "../Context/UserContext"
 import { useContext, useState } from "react"
+import { tabTitle } from "../../../Title"
 
 
 
 const SignUp = () => {
+  tabTitle("React App | SingUp")
 
   const { createUser,googleUser,verifyEmail}=useContext(AuthContext);
 

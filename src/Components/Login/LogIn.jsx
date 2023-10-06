@@ -5,11 +5,16 @@ import { useContext, useState } from "react"
 import { AuthContext } from "../Context/UserContext"
 import { sendPasswordResetEmail,getAuth } from "firebase/auth"
 import app from "../../Firebase/Firebase.init"
+import { tabTitle } from "../../../Title"
 const LogIn = () => {
+
+  tabTitle("React App | LogIn");
+
   const auth = getAuth(app);
   const {loginUser}=useContext(AuthContext);
 
 const [userEmail,setuserEmail]=useState("");
+const [success,setsuccess]=useState(false);
 
   const handelEmailBluer =(event)=>{
     const email=event.target.value;
@@ -51,6 +56,7 @@ const hendelLogin=(e)=>{
     const user=result.user;
  
     alert("You Are Successfully LogIn")
+    setsuccess(true)
     form.reset()
     console.log("login");
   })
@@ -91,16 +97,22 @@ const hendelLogin=(e)=>{
   <div className="">
     <Link className="btn text-primary" to="/signup" >Create A New Accounts</Link>
   </div>
+  {
+        success && <div>
+            <p className="text-success">SuccessFully Login</p>
+        </div>
+     }
   
-  <input type="submit" class="btn btn-info py-3 px-5 mt-5 btn-des" value="LogIn"></input>
+  <input type="submit" class="btn btn-info py-3 px-5 mt-2 btn-des" value="LogIn"></input>
 
+  <div className="">
 
+<p className=" pt-2 text-primary">Forget password </p>
+<button className="btn btn-info py-3 px-5  btn-des " onClick={hendleFotgetpassword}  >Plase Reset</button>
+</div>
   
 </form>
-<div className="">
-
-      <p className="x2x mt-3">Forget password <button className=" xxxxx" onClick={hendleFotgetpassword}  >Plase Reset</button> </p>
-      </div>
+      
 
       
 

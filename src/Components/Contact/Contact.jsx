@@ -5,9 +5,11 @@ import "../Contact.css/Contact.css"
 import { FaStar } from "react-icons/fa";
 import  "../Css/Main.css"
 import { FaMapMarkerAlt,FaPhoneVolume,FaEnvelope } from "react-icons/fa";
+import { tabTitle } from "../../../Title";
 
 
 const Contact = () => {
+  tabTitle("React App | Contact");
   return (
     <div className="">
    <div className="container">

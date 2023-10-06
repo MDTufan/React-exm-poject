@@ -11,8 +11,11 @@ import img9 from "../../assets/avatar2.png"
 import img10 from "../../assets/avatar1.png"
 import "../About.css/About.css"
 import  "../Css/Main.css"
+import { tabTitle } from "../../../Title"
 
 const About = () => {
+
+  tabTitle("React App | About");
   return (
     <div>
       <div className="container">

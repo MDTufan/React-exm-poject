@@ -16,12 +16,13 @@ import imgx11 from "../../assets/cc2.png"
 import imgx12 from "../../assets/cc3.png"
 
 import { Link } from "react-router-dom";
+import { tabTitle } from "../../../Title";
 
 
 const Home = () => {
 
 
-
+tabTitle("React App")
 
   return (
     <div className="py-5">
