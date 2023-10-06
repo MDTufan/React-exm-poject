@@ -1,10 +1,43 @@
 import "../Css/Main.css"
 import { Link } from "react-router-dom"
 import "../Login.css/LogIn.css"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { AuthContext } from "../Context/UserContext"
+import { sendPasswordResetEmail,getAuth } from "firebase/auth"
+import app from "../../Firebase/Firebase.init"
 const LogIn = () => {
+  const auth = getAuth(app);
   const {loginUser}=useContext(AuthContext);
+
+const [userEmail,setuserEmail]=useState("");
+
+  const handelEmailBluer =(event)=>{
+    const email=event.target.value;
+    console.log(email);
+    setuserEmail(email);
+  }
+
+
+  const hendleFotgetpassword=()=>{
+    if(!userEmail){
+     alert("Plase Enter Your Email And Try Again")
+    }
+sendPasswordResetEmail(auth, userEmail)
+.then(() => {
+ alert("plase cheack your emall and reset password")
+})
+.catch((error) => {
+ 
+ const errorMessage = error.message;
+console.log(errorMessage);
+});
+ }
+
+
+
+
+
+
 const hendelLogin=(e)=>{
  
   console.log(loginUser);
@@ -45,7 +78,7 @@ const hendelLogin=(e)=>{
    
     <div class="form-group ">
       <label for="inputEmail4">Email:</label>
-      <input type="email" name="email" class="form-control py-3 border border-info" id="inputEmail4" />
+      <input type="email"  name="email" onBlur={handelEmailBluer} class="form-control py-3 border border-info" id="inputEmail4" />
     </div>
     <div class="form-group ">
       <label for="inputPassword4">Password:</label>
@@ -60,7 +93,18 @@ const hendelLogin=(e)=>{
   </div>
   
   <input type="submit" class="btn btn-info py-3 px-5 mt-5 btn-des" value="LogIn"></input>
+
+
+  
 </form>
+<div className="">
+
+      <p className="x2x mt-3">Forget password <button className=" xxxxx" onClick={hendleFotgetpassword}  >Plase Reset</button> </p>
+      </div>
+
+      
+
+
       </div>
     </div>
    </div>
