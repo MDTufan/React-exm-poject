@@ -110,7 +110,7 @@ const hendelLogin=(e)=>{
   <div className="">
 
 <p className=" pt-2 text-primary">Forget password </p>
-<button className="btn btn-info py-3 px-5 btnnsize  btn-des " onClick={hendleFotgetpassword}  >Plase Reset</button>
+<button className="btn btn-info py-3 px-5 btnnsize  btn-des " onClick={hendleFotgetpassword}  >Password Reset</button>
 </div>
   
 </form>
