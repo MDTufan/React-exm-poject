@@ -8,7 +8,7 @@ const Card = ({product,handelAddtoCard}) => {
   return (
    
          
-           <div className="card-1 ">
+           <div className="card-1 mt-5 ">
              <div className="card  my-5 vvv " >
             <div className="">
             <img className='img-card' src={product.image}  alt="..." />

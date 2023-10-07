@@ -67,7 +67,7 @@ tabTitle("React App")
       <div className=" py-5">
       < div className='Blog'>
         <div className="container">
-          <h1 className='xx-4 text-white fw-bold fs-1' data-aos="fade-down"
+          <h1 className='xx-4 text-info fw-bold fs-1' data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">Service</h1>
           <div className="row blog py-5">
@@ -95,7 +95,9 @@ tabTitle("React App")
             </div>
           </div>
         <div className="col-12  col-md-4  col-sm-12  ">
-            <div class="card  color-7" data-aos="flip-up" >
+            <div class="card  color-7" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" >
           
             <img className="img-fluid img-size" src={imgx2} alt="" />
             <p className="text-black text-center">23 Street, New York, USA</p>
@@ -212,7 +214,9 @@ tabTitle("React App")
       <div className="py-5">
         <div className="row py-5">
          
-         <div className="col-12 col-md-6 mt-3  p-4 py-5" data-aos="fade-right">
+         <div className="col-12 col-md-6 mt-3  p-4 py-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <h1 className="text-warning">WoW!</h1>
             <h4 className="text-white"><span className="text-danger">35% </span>Discount.Amizeing</h4>
             <p className="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>
@@ -239,7 +243,9 @@ tabTitle("React App")
       <div className="mt-5">
       < div className='Blog'>
         <div className="container">
-          <h1 className='xx-4 text-white'>website Usage In Language</h1>
+          <h1 className='xx-4 text-info' data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">website Usage In Language</h1>
           <div className="row blog mt-5">
         <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
             <div class="card R" data-aos="fade-down"

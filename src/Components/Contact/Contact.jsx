@@ -15,7 +15,9 @@ const Contact = () => {
     <div className="">
    <div className="container">
    <div className="row py-5 mt-5">
-          <div className="col-12 col-md-6 mt-5 p-4 py-5">
+          <div className="col-12 col-md-6 mt-5 p-4 py-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           <div className="py-2 mt-4">
           <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white mt-5">In this season, find the best</h4>
@@ -44,9 +46,9 @@ const Contact = () => {
           </div>
           <div className="">
            <div className=" text-center ">
-           <FaStar className="text-warning " />
-            <FaStar className="text-warning " />
-            <FaStar className="text-warning " />
+           <FaStar className="text-color90 " />
+            <FaStar className="text-color90 " />
+            <FaStar className="text-color90 " />
             <FaStar className="text-warning " />
             <FaStar className="text-warning " />
           
@@ -85,19 +87,19 @@ const Contact = () => {
         <div className="col-12 col-md-4 d-flex" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-          <FaMapMarkerAlt className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
+          <FaMapMarkerAlt className="text-color90 text-center mt-2 rounded bg-info p-2 font   " />
           <p className="text-info px-3 mt-3 fs-5 ">43 Raymouth Rd. Baltemoer, London 3910</p>
         </div>
         <div className="col-12 col-md-4 col-md-4  d-flex" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-         <FaPhoneVolume className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
+         <FaPhoneVolume className="text-color90 text-center mt-2 rounded bg-info p-2 font   " />
          <p  className="text-info px-3 mt-3 fs-5 ">+1 294 3925 3939</p>
         </div>
         <div className="col-4 d-flex" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-          <FaEnvelope className="text-danger text-center mt-2 rounded bg-info p-2 font   " />
+          <FaEnvelope className="text-color90 text-center mt-2 rounded bg-info p-2 font   " />
           <p  className="text-info px-3 mt-3 fs-5 ">info@yourdomain.com</p>
         </div>
       </div>
@@ -110,27 +112,39 @@ const Contact = () => {
         <form class="row g-3 bg-white p-5" >
         <h1 className="text-black text-center">Contact Me?</h1>
           <h2 className="text-black">You know, Contact Form</h2>
-  <div class="col-md-6">
+  <div class="col-md-6" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
     <label for="inputEmail4" class="form-label text-black fs-2">Email</label>
     <input type="email" className="form-control x99 py-3  " id="inputEmail4" placeholder="Enter Your Email"/>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
     <label for="inputPassword4" class="form-label text-black fs-2">Password</label>
     <input type="password" class="form-control py-3 x99" id="inputPassword4"  placeholder="Enter Your Password"/>
   </div>
-  <div class="col-12">
+  <div class="col-12" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
     <label for="inputAddress" class="form-label text-black fs-2">Address</label>
     <input type="text" class="form-control py-3 x99" id="inputAddress" placeholder="1234 Main St" />
   </div>
-  <div class="col-12">
-    <label for="inputAddress2" class="form-label text-black fs-2">Address 2</label>
+  <div class="col-12" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+    <label for="inputAddress2" class="form-label text-black fs-2"> Present Address</label>
     <input type="text" class="form-control py-3 x99" id="inputAddress2" placeholder="Apartment, studio, or floor" />
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
     <label for="inputCity" class="form-label text-black fs-2">City</label>
     <input type="text" class="form-control py-3 x99" id="inputCity" placeholder="Your Live City"/>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
     <label for="inputState" class="form-label text-black fs-2">Skills</label>
     <select id="inputState" class="form-select py-3 x99">
       <option selected>Choose...</option>

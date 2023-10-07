@@ -51,7 +51,7 @@ const About = () => {
      data-aos-easing="linear"
      data-aos-duration="1500">
             <div className="img-design2">
-            <img className="xxx-img xxxx" src={img1} alt="" />
+            <img className="xxx-img xxxx box-1" src={img1} alt="" />
             </div>
           </div>
           <div class="col-12 col-md-6  p-4 " >
@@ -247,11 +247,11 @@ const About = () => {
       </div>
 
       <div className="container">
-        <div className="row bg-info mb-5" data-aos="flip-left"
+        <div className="row bg-white mb-5" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <div className="col-12">
-<h1 className="text-center text-info mb-4">Testimonials</h1>
+<h1 className="text-center text-black mt-5 mb-4">Testimonials</h1>
           <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   
   <div class="carousel-inner  mb-5">
