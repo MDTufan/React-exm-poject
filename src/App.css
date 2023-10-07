@@ -1,0 +1,13 @@
+.light-node{
+   background-color: #250821; 
+}
+
+.dark-mode{
+   background-color: black;
+}
+
+.dark{
+   color: rgb(17, 20, 125);
+   font-size: 25px  !important;
+   margin-left: 12px;
+}

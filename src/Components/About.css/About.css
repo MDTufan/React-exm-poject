@@ -11,6 +11,8 @@
 
   .width-1{
     width: 150px !important;
+    border: 4px solid blue;
+    padding: 4px;
   }
   .bgc:hover{
     opacity: 0.8;

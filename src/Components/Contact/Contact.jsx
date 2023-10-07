@@ -59,11 +59,16 @@ const Contact = () => {
           </div>
           
         </div>
-        <div className="col-4"></div>
-        <div className="col-4"></div>
+        <div className="col-12 col-md-4">
+
+        </div>
+        <div className="col-12 col-md-4">
+
+        </div>
       </div>
     </div>
     
+      <div className="container">
       <div className="row py-5">
         <div className="col-12">
         <div className=''>
@@ -77,11 +82,12 @@ const Contact = () => {
      data-aos-duration="1500">
             <iframe className="map py-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57810.404607566685!2d89.02271261001017!3d25.096773484926903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc920e30f74a01%3A0x79daa6e9aa5ecdff!2sJoypurhat!5e0!3m2!1sen!2sbd!4v1690550887462!5m2!1sen!2sbd" ></iframe>
         </div>
-        {/* <Clock /> */}
+       
         </div>
         
     </div>
         </div>
+      </div>
      <div className="container">
       <div className="row">
         <div className="col-12 col-md-4 d-flex" data-aos="flip-left"

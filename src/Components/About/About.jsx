@@ -37,7 +37,7 @@ const About = () => {
      data-aos-easing="linear"
      data-aos-duration="1500">
             <div className="img-design1 ">
-            <img className="xxx-img xxxx x4" src={img} alt="" />
+            <img className="xxx-img xxxx x4 img-fluid" src={img} alt="" />
             </div>
           </div>
          </div>
@@ -51,7 +51,7 @@ const About = () => {
      data-aos-easing="linear"
      data-aos-duration="1500">
             <div className="img-design2">
-            <img className="xxx-img xxxx box-1" src={img1} alt="" />
+            <img className="xxx-img xxxx box-1 img-fluid" src={img1} alt="" />
             </div>
           </div>
           <div class="col-12 col-md-6  p-4 " >
@@ -95,7 +95,7 @@ const About = () => {
          <div class="container">
              
              <div className="row py-5">
-               <div className="col-12 col-md-4  p-4">
+               <div className="col-12  col-md-6 col-lg-4  p-4">
 
                <div class="card" data-aos="fade-down"
      data-aos-easing="linear"
@@ -119,7 +119,7 @@ const About = () => {
               </div>
               <h2 className="text-white text-center">Poject-1</h2>
                </div>
-               <div className="col-12 col-md-4  p-4">
+               <div className="col-12  col-md-6 col-lg-4  p-4">
                <div class="card" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -141,7 +141,7 @@ const About = () => {
               </div>
               <h2 className="text-white text-center">Poject-2</h2>
                </div>
-               <div className="col-12 col-md-4  p-4">
+               <div className="col-12  col-md-6 col-lg-4  p-4">
                <div class="card" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -170,7 +170,7 @@ const About = () => {
            <div class="container">
              
              <div className="row py-5">
-               <div className="col-12 col-md-4  p-4">
+               <div className="col-12  col-md-6 col-lg-4  p-4">
                <div class="card" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -192,7 +192,7 @@ const About = () => {
               </div>
               <h2 className="text-white text-center">Poject-4</h2>
                </div>
-               <div className="col-12 col-md-4  p-4">
+               <div className="col-12  col-md-6 col-lg-4  p-4">
                <div class="card" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -214,7 +214,7 @@ const About = () => {
               </div>
               <h2 className="text-white text-center">Poject-5</h2>
                </div>
-               <div className="col-12 col-md-4  p-4">
+               <div className="col-12  col-md-6 col-lg-4  p-4">
                <div class="card" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">

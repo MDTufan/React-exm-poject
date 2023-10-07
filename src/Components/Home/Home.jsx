@@ -47,7 +47,7 @@ tabTitle("React App")
      data-aos-easing="linear"
      data-aos-duration="1500">
             <div className="img-design ml-5 p-4">
-            <img className=" img-3 img-fluid" src={img} alt="" />
+            <img className=" img-3 img-fluid " src={img} alt="" />
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ tabTitle("React App")
 
 
 
-
+ 
 <div className="container">
   <div className="row">
     <div className="col-12">
@@ -71,7 +71,7 @@ tabTitle("React App")
      data-aos-easing="linear"
      data-aos-duration="1500">Service</h1>
           <div className="row blog py-5">
-        <div className="col-12  col-md-4 col-sm-12 ">
+        <div className="col-12  col-md-6 col-lg-4 ">
             <div class="card color-7" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -94,7 +94,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-        <div className="col-12  col-md-4  col-sm-12  ">
+        <div className="col-12  col-md-6 col-lg-4  ">
             <div class="card  color-7" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500" >
@@ -116,7 +116,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-        <div className="col-12  col-md-4  col-sm-12  ">
+        <div className="col-12  col-md-6 col-lg-4  ">
             <div class="card  color-7 " data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -140,7 +140,7 @@ tabTitle("React App")
           </div>
           </div>
           <div className="row blog">
-          <div className="col-12  col-md-4 col-sm-12 ">
+          <div className="col-12  col-md-6 col-lg-4">
             <div class="card  color-7 " data-aos="zoom-in">
           
            <img className="img-fluid img-size" src={imgx4} alt="" />
@@ -160,7 +160,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-          <div className="col-12  col-md-4  col-sm-12 ">
+          <div className="col-12  col-md-6 col-lg-4">
             <div class="card  color-7 " data-aos="flip-up">
           
             <img className="img-fluid img-size" src={imgx5} alt="" />
@@ -180,7 +180,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-          <div className="col-12  col-md-4  col-sm-12 ">
+          <div className="col-12  col-md-6 col-lg-4 ">
             <div class="card  color-7" data-aos="zoom-in-left">
           
             <img className="img-fluid img-size" src={imgx6} alt="" />
@@ -230,7 +230,7 @@ tabTitle("React App")
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
             <div className="img-design1 ">
-            <img className="mb-5" src={imgx7} alt="" />
+            <img className="mb-5 img-fluid" src={imgx7} alt="" />
             </div>
           </div>
          </div>
@@ -247,7 +247,7 @@ tabTitle("React App")
      data-aos-easing="linear"
      data-aos-duration="1500">website Usage In Language</h1>
           <div className="row blog mt-5">
-        <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
+        <div className="col-12  col-md-6 col-lg-4  ">
             <div class="card R" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -272,7 +272,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-        <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
+        <div className="col-12  col-md-6 col-lg-4  ">
             <div class="card R" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
@@ -295,7 +295,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-        <div className="col-12 col-lg-4 col-md-4  col-sm-12  ">
+        <div className="col-12  col-md-6 col-lg-4    ">
             <div class="card R" data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" >
           
@@ -319,7 +319,7 @@ tabTitle("React App")
           </div>
           </div>
           <div className="row blog mt-5">
-          <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
+          <div className="col-12  col-md-6 col-lg-4  ">
             <div class="card R" data-aos="fade-up"
      data-aos-duration="3000" >
           
@@ -341,7 +341,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
+          <div className="col-12  col-md-6 col-lg-4  ">
             <div class="card R" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" >
@@ -364,7 +364,7 @@ tabTitle("React App")
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-4 col-md-4  col-sm-12 ">
+          <div className="col-12  col-md-6 col-lg-4   ">
             <div class="card R" data-aos="fade-up"
      data-aos-anchor-placement="center-bottom">
           

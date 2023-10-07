@@ -1,8 +1,15 @@
+.img-design1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    
+}
 .img-3{
     display: flex;
     align-items: center;
     justify-content:flex-end;
     margin-left: 20px;
+    
     
 }
 .img-size{
@@ -21,6 +28,7 @@
     background-image: url("../../assets/eee.jpg");
     width: 100%;
     height: auto;
+    
     
 }
 
