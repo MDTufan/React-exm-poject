@@ -26,6 +26,7 @@ const About = () => {
          <div className="col-12 col-md-6  p-4 py-5" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
+            <h3 className="text-info">"WonderFull,,</h3>
             <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white mt-5">In this season, find the best</h4>
             <p className="text-white mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>

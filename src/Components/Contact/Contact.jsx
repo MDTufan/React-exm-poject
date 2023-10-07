@@ -19,6 +19,7 @@ const Contact = () => {
      data-aos-easing="linear"
      data-aos-duration="1500">
           <div className="py-2 mt-4">
+          <h3 className="text-info">"WonderFull,,</h3>
           <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white mt-5">In this season, find the best</h4>
             <p className="text-white mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>

@@ -32,6 +32,7 @@ tabTitle("React App")
           <div className="p-4 mt-5" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
+          <h3 className="text-info">"WonderFull,,</h3>
           <h1 className="text-white">Exclusive collection for everyone</h1>
             <h4 className="text-white font-x mt-5">In this season, find the best</h4>
             <p className="text-white font-xx mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem ullam, minima voluptatibus sunt autem sit magnam </p>

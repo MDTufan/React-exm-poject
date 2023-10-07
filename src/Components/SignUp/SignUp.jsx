@@ -104,11 +104,11 @@ const SignUp = () => {
 
   <p>{passwordError}</p>
   <div className="">
-  <input type="submit" class="btn btn-info mx-5 py-3 px-5 mt-3 btn-des" value="SingUp"></input>
+  <input type="submit" class="btn btn-info  py-3 px-5 mt-3 btnnsize btn-des" value="SingUp"></input>
   </div>
 
 
-  <button onClick={handleGoogle} class="btn btn-info py-3 px-5 mt-3 btn-des" >Google Singup</button>
+  <button onClick={handleGoogle} class="btn btn-info py-3 px-5 mt-3 btnnsize btn-des" >Google Singup</button>
     
       
 </form>
